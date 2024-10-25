@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rank do Herói</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calcule o Rank do Herói</h1>
+    <div class="input-group">
+      <label for="victories">Vitórias:</label>
+      <input type="number" id="victories" placeholder="Número de vitórias">
+    </div>
+    <div class="input-group">
+      <label for="defeats">Derrotas:</label>
+      <input type="number" id="defeats" placeholder="Número de derrotas">
+    </div>
+    <button onclick="calcularRank()">Calcular Rank</button>
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
